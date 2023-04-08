@@ -1,0 +1,63 @@
+/* Learnprogramo - programming made simple */
+/*------------- media query-------------*/
+@media all and (max-width: 768px){
+    .signup-aria{
+        height: 820px;
+    }
+    .left-area{
+        width: 100%;
+        float: none;
+    }
+    .right-area{
+        width: 100%;
+    }
+}
+@media all and (max-width: 660px){
+    .header-area .logo-area{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .login-area form{
+        float: none;
+        margin: 0 auto;
+        width: 400px;
+    }
+    .header-area .login-area{
+        width: 100%;
+    }
+}
+@media all and (max-width: 420px){
+    .login-area form{
+        width: 100%;
+    }
+    .login-area .username-area{
+        float: none;
+        overflow: hidden;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .login-area .password-area{
+        float: none;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .login-area input[type="text"],
+    .login-area input[type="password"]{
+        width: 100%;
+        font-size: 18px;
+        padding: 5px;
+    }
+    .header-area{
+        font-size: 16px;
+    }
+    .login-area .submit-area{
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+    .submit-area input{
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+}
